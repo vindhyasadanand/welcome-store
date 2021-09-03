@@ -18,7 +18,7 @@ And here is the demo of our welcome-store
 Register page
 ![alt text](https://github.com/vindhyasadanand/welcome-store/blob/master/Screenshot%20(111).png)
 Login Page
-![alt text](https://github.com/vindhyasadanand/welcome-store/blob/master/Screenshot%20(110).png)
+![alt text](https://github.com/vindhyasadanand/welcome-store/blob/master/Screenshot%20(112).png)
 Home Page
 ![alt text](https://github.com/vindhyasadanand/welcome-store/blob/master/Screenshot%20(106).png)
 Cart page
