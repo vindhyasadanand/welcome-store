@@ -13,14 +13,17 @@ It is an online shopping system for an existing store. And technologies used PHP
 * Then import demo.sql from the location C:\xampp\htdocs
 * Now to run it localhost:/welcome-store/sslogin
 --------------------------------------------------------------------------
-And here is the demo of our welcome-store
+And here is the demo of our welcome-store 
+
 Register page
 ![alt text](https://github.com/vindhyasadanand/welcome-store/blob/master/Screenshot%20(111).png)
 Login Page
-![alt text]()
+![alt text](https://github.com/vindhyasadanand/welcome-store/blob/master/Screenshot%20(110).png)
 Home Page
 ![alt text](https://github.com/vindhyasadanand/welcome-store/blob/master/Screenshot%20(106).png)
 Cart page
 ![alt text](https://github.com/vindhyasadanand/welcome-store/blob/master/Screenshot%20(107).png)
 Billing Page
 ![alt text](https://github.com/vindhyasadanand/welcome-store/blob/master/Screenshot%20(108).png)
+Admin page
+![alt text](https://github.com/vindhyasadanand/welcome-store/blob/master/Screenshot%20(113).png)
