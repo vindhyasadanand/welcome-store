@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Register Form</title>
+  <style>
+    form {border: 3px solid #f1f1f1;height:600px;}
+
+input[type=text], input[type=password] ,input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+.container {
+    padding: 16px;
+}
+</style>
+</head>
+<body style="background-color: black;overflow-x: hidden;overflow-y: hidden;">
+<div style="background-image: url(image/wall.jpg);height:900px;">
+<button id="myButton" class="float-left submit-button" style="width:150px;height:50px;background:brown;color:white;font-size:30px;" >BACK</button>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "sslogin.html";
+    };
+</script>
+    <div style="position: relative;bottom:60px;left:600px;width:500px;">
+<center><h1 style="color:white;">Register here</h1>
+<div style="align:center">
+ <form action="sinsert.php" method="POST">
+ 
+<div class="container" >
+  <table>
+   <tr>
+    <td style="color:white;font-size:20px;">Name    :</td>
+    <td><input type="text" name="username" required></td>
+   </tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr>
+    <td style="color:white;font-size:20px;">Password :</td>
+    <td><input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"required></td>
+   </tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr>
+   <!-- <td style="color:white;font-size:20px;">Gender :</td>
+    <td>
+     <input type="radio" name="gender" value="m" required ><p style="color:white;font-size:20px;display:inline;">Male</p>
+     <input type="radio" name="gender" value="f" required><p style="color:white;font-size:20px;display:inline;">Female</p>
+    </td>-->
+   </tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr>
+    <td style="color:white;font-size:20px;">Email :</td>
+    <td><input type="email" name="email" required></td>
+   </tr>
+<tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>   
+   <tr>
+    <td style="color:white;font-size:20px;">Phone no :</td>
+    <td style="color:white;font-size:20px;">
+     <input type="tel" name="phone" required style="height:25px;" pattern="^\d{10}$" title="Enter 10 digit number">
+    </td>
+   </tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr></tr>
+   <tr>
+   <td style="color:white;font-size:20px;">Address:</td>
+   <td><textarea rows="8" cols="40"name="address" required></textarea></td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Register" name="click" style="font-size:20px;background:green;height:30px;width:100px;position:relative;top:50px;"></td>
+   </tr>
+  </table>
+ </form>
+ </div>
+ </div>
+ </div>
+</body>
+</html>

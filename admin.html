@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Login</title>
+
+<style>
+    form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+.container {
+    padding: 16px;
+}
+body {
+	      width:100%;
+	      height:auto;
+	       background-repeat:no repeat;
+		background-image: url("paris.jpg");
+		background-size: 110%;
+	}
+</style>
+</head>
+<body style="background-color: black;overflow-x: hidden;overflow-y: hidden;">
+<button id="myButton" class="float-left submit-button" style="width:150px;height:50px;background:red;color:white;font-size:30px;" >Home</button>
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "shome.html";
+    };
+</script>
+    <div style="position: relative;left:500px;top:-100px;width:500px;">
+        
+    <h2 style="color:black;">Admin</h2>
+<form method="POST" action="admin.php">
+<div class="imgcontainer">
+    <img src="image/login3.jpg" style="width:200px;height: 200px;border: groove;"alt="Avatar" class="avatar">
+  </div>
+<div class="container" >
+<p style="color:black;font-size:20px;"><b>Enter username:</b></p>
+<input type="text" name="uname" />
+<p style="color:black;font-size:20px;"><b>Enter password:</b></p>
+<input type="password" name="pasword"/>
+<center><input type="submit" name="click" value="Login" style="width:200px;height:40px;background:green;font-size:20px;color:white;"/>
+
+
+</div>
+</form>
+
+</div>
+</div>
+</body>
+</html>
