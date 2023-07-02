@@ -1,4 +1,4 @@
-# welcome-store
+# E-Shop
 It is an online shopping system for an existing store. And technologies used PHP,MySQL,JavaScript,HTML,CSS. Here admin can perform create,update,and delete operations and user can perform crud operation with the shopping cart
 ## How to use the code:
 ### First let us look at softwares required
